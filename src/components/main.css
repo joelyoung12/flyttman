@@ -1,0 +1,160 @@
+/* In main.css */
+.custom-margin {
+  /* Removed !important to avoid unnecessary overrides */
+  line-height: 30px;
+  transform: translateY(-250px);
+}
+
+.custom-navbar {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Global body font */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+  color: white;
+}
+
+/* Stream class for text */
+.stream {
+  color: rgb(0, 0, 0);
+  text-align: justify;
+}
+
+/* Total section */
+.total {
+  background-color: green;
+  margin-top: 10px;
+  text-align: center; /* Centered content for better mobile view */
+  padding: 50px;
+}
+
+/* Navbar adjustments */
+#navbarNav {
+  width: 90%; /* Set width to 90% for better responsiveness */
+}
+
+/* Text Muted class */
+.text-muted {
+  font-weight: 300;
+  font-size: 19px;
+  color: black;
+  line-height: 35px;
+}
+
+/* Quote Container */
+.quotecon {
+  background-color: rgb(255, 252, 252);
+  padding: 20px;
+  width: 90%;
+}
+
+/* Discover Section */
+.discon {
+  background-color: rgb(250, 249, 249);
+  padding: 100px;
+  margin-top: 100px;
+}
+
+/* Need Section */
+.need {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+/* Icon Box for discover section */
+.icon-box {
+  background: white;
+  padding: 40px; /* Reduced padding for better mobile support */
+  text-align: left;
+  border-radius: 1rem;
+}
+
+/* Craft section */
+.craft {
+  text-align: center;
+  color: gray;
+  width: 100%;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+/* Icon styling */
+.con {
+  color: gray;
+}
+
+/* Nice section */
+.nice {
+  padding: 60px;
+  width: 30%;
+  font-weight: 700;
+  height: 7vh;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Blockquote style */
+.blockquote {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .stream {
+    font-size: 1.2rem;
+    text-align: center; /* Center-align text on smaller screens */
+  }
+
+  .total h4 {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .total p {
+    font-size: 1rem;
+  }
+
+  /* Adjustments for the craft section */
+  .craft {
+    width: 100%; /* Set to full width for mobile */
+    margin: 0 10px; /* Margin added for spacing */
+    font-size: 14px; /* Smaller font for better mobile readability */
+  }
+
+  /* Adjust icon box padding */
+  .icon-box {
+    padding: 30px;
+  }
+
+  /* Adjust .nice width for mobile */
+  .nice {
+    width: 100%;
+    font-size: 25px; /* Smaller font size for mobile */
+  }
+
+  /* Adjust layout of quote container */
+  .quotecon {
+    padding: 50px;
+    width: 100%; /* Full width for mobile view */
+  }
+}
+
+/* Responsive support for very small screens */
+@media (max-width: 480px) {
+  .need {
+    font-size: 24px; /* Smaller font for very small screens */
+    line-height: 40px; /* Adjusted line-height */
+  }
+
+  .discon {
+    padding: 50px; /* Less padding for smaller screens */
+  }
+}
