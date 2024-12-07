@@ -115,7 +115,7 @@ function Navbar() {
             <img
               src="https://via.placeholder.com/800x400?text=Slide+3"
               className="d-block w-100"
-              
+              git init
               style={{ borderRadius: "" }}
             />
           </div>
